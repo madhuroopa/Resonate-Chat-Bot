@@ -19,13 +19,7 @@ jobs:
           sudo apt-get install git-lfs
           git lfs install
 
-      - name: Track large files with Git LFS
-        run: git lfs track "presentation.pptx"
-
-      - name: Add and commit files
-        run: |
-          git add .
-          git commit -m "Add presentation.pptx using Git LFS"
+    
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
