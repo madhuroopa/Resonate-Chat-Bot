@@ -1,7 +1,7 @@
 name: Sync to Hugging Face hub
 on:
   push:
-    branches: [main]
+    branches: [master]
 
   # to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -21,4 +21,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push --force https://mirukulla:$HF_TOKEN@huggingface.co/spaces/mirukulla/mirukulla/Resonate-Meetings-chat-bot main
+        run: git push --force https://mirukulla:$HF_TOKEN@huggingface.co/spaces/mirukulla/mirukulla/Resonate huggingFace
