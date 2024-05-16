@@ -14,10 +14,7 @@ jobs:
         with:
           fetch-depth: 0
           lfs: true
-      - name: Install Git LFS
-        run: |
-          sudo apt-get install git-lfs
-          git lfs install
+    
 
     
       - name: Push to hub
