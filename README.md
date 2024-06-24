@@ -58,7 +58,7 @@ Research
 - We would try multiple `Vector embeddings` and also fine-tune `LLM Models`  on the custom dataset and compare the performance of these models.
 ![image](https://github.com/SartajBhuvaji/Resonate/assets/31826483/bd4559b3-780f-428e-ae13-a885008e858f)
 
-<img width="729" alt="image" src="https://github.com/madhuroopa/Resonate-Meetings-Chat-Bot/assets/22576343/3f8f557f-8747-4065-aa15-4943df979fe8">
+<img width="729" alt="image" src="https://github.com/madhuroopa/Resonate-Chat-Bot/blob/master/docs/image-3.png">
 
 
 Clustering Framework
