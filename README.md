@@ -1,4 +1,4 @@
-[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-lg-dark.svg)](https://huggingface.co/spaces/mirukulla/Resonate-Meetings-chat-bot)
+[![Open in Hugging Face Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-lg-dark.svg)](https://huggingface.co/spaces/mirukulla/Resonate-Meetings-chat-bot)
 <br />
 <div align="center">
   <a href="https://github.com/SartajBhuvaji/Data-Science-Project/tree/main/">
@@ -41,7 +41,7 @@ RAG Inference
 - The LLm would then generate the result and answer the question.
 
 
-<img width="649" alt="image" src="https://github.com/madhuroopa/Resonate-Meetings-Chat-Bot/assets/22576343/b610b84f-3081-478e-a682-a53c466803d1">
+<img width="649" alt="image" src="![Inference](image-1.png)">
 
 
 Data Store
@@ -50,7 +50,7 @@ Data Store
 - We would use `AWS Transcribe` to diarize and transcribe the audio file into `timestamp, speaker, text` (this is simplified)
 - We would embed the text data into vectors that would be uploaded to Pinecone serverless.
   
-<img width="558" alt="image" src="https://github.com/madhuroopa/Resonate-Meetings-Chat-Bot/assets/22576343/093803db-137b-4275-8d98-d5b003613861">
+<img width="558" alt="image" src="![Data Store](image.png)">
 
 
 
