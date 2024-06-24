@@ -41,7 +41,7 @@ RAG Inference
 - The LLm would then generate the result and answer the question.
 
 
-<img width="649" alt="image" src="![Inference](image-1.png)">
+<img width="649" alt="image" src="https://github.com/madhuroopa/Resonate-Chat-Bot/blob/master/docs/image-1.png">
 
 
 Data Store
@@ -50,7 +50,7 @@ Data Store
 - We would use `AWS Transcribe` to diarize and transcribe the audio file into `timestamp, speaker, text` (this is simplified)
 - We would embed the text data into vectors that would be uploaded to Pinecone serverless.
   
-<img width="558" alt="image" src="![Data Store](image.png)">
+<img width="558" alt="image" src="https://github.com/madhuroopa/Resonate-Chat-Bot/blob/master/docs/image.png">
 
 
 
